@@ -46,10 +46,10 @@
       <div class="photo-section">
         <div class="gallery">
           <figure class="gallery-content">
-            <img src="img/item-a.png" width="400" height="450"alt="Наименование товара" />
-            <img src="img/item-b.png" width="120" height="120"alt="Наименование товара" />
-            <img src="img/item-c.png" width="120" height="120"alt="Наименование товара" />
-            <img src="img/item-d.png" width="120" height="120"alt="Наименование товара" />
+            <img src="img/item-a.png" width="400" height="450" alt="Наименование товара" />
+            <img src="img/item-b.png" width="120" height="120" alt="Наименование товара" />
+            <img src="img/item-c.png" width="120" height="120" alt="Наименование товара" />
+            <img src="img/item-d.png" width="120" height="120" alt="Наименование товара" />
           </figure>
         </div>
       </div>
@@ -70,7 +70,7 @@
         </section>
         <section class="cost-block">
             <div class="cost">2900 Руб.</div>
-            <a class="buttom" href="#">Купить</a>
+            <a class="button" href="#">Купить</a>
         </section>
       </div>
       <div class="contents">
@@ -106,7 +106,7 @@
         </section>
         <section class="footer-copyright">
           <p>Разработано:</p>
-            <a class="buttom" href="https://htmlacademy.ru">Htmlacademy.ru</a>
+            <a class="button" href="https://htmlacademy.ru">Htmlacademy.ru</a>
         </section>
       </div>
     </footer>
