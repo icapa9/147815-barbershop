@@ -80,7 +80,7 @@
       <div class="items-field">
         <div class="items">
           <article class="box">
-            <img src="img/item1.png">
+            <img src="img/item1.png" width="100" height="150" alt="изображение товара" >
             <p>
               Набор для путешествий <br>
               "Baxter of California"
@@ -91,7 +91,7 @@
             </div>
           </article>
           <article class="box">
-            <img src="img/item2.png">
+            <img src="img/item2.png" width="100" height="150" alt="изображение товара">
             <p>
               Увлажняющий кондиционер <br>
               "Baxter of California"
@@ -102,7 +102,7 @@
             </div>
           </article>
           <article class="box">
-            <img src="img/item3.png">
+            <img src="img/item3.png" width="100" height="150" alt="изображение товара"> <!--При большом количестве однотипных изображений симантически имеет смысл их подписывать?-->
             <p>
               Гель для волос <br>
               "Suavecito"
@@ -113,7 +113,7 @@
             </div>
           </article>
           <article class="box">
-            <img src="img/item4.png">
+            <img src="img/item4.png" width="100" height="150" alt="изображение товара">
             <p>
               Глина для укладки волос <br>
               "American crew"
@@ -124,7 +124,7 @@
             </div>
           </article>
           <article class="box">
-            <img src="img/item5.png">
+            <img src="img/item5.png" width="100" height="150" alt="изображение товара">
             <p>
               Гель для волос <br>
               "American crew"
@@ -135,7 +135,7 @@
             </div>
           </article>
           <article class="box">
-            <img src="img/item6.png">
+            <img src="img/item6.png" width="100" height="150" alt="изображение товара">
             <p>
               Набор для бритья <br>
               "Baxter of California"
