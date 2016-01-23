@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Барбершоп</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <div class="nav-logo">
+          <img src="img/nav-logo.png" alt="Barbershop">
+        </div>
+        <nav class="main-navigation">
+          <ul>
+            <li><a href="#">Информация</a>
+            </li>
+            <li><a href="#">Новости</a>
+            </li>
+            <li><a href="#">Прайс-лист</a>
+            </li>
+            <li><a href="#">Магазин</a>
+            </li>
+            <li><a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="user-block">
+          <a class="login" href="#">Вход</a>
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <div class="breadcrumbs">
+        <h1>Средства для ухода</h1> <!--Или необходимо заголовок взять в совсем отдельный блок?-->
+        <ul>
+          <li><a href="#">Главная</a>
+          </li>
+          <li><a href="#">Магазин</a>
+          </li>
+          <li><a href="#">Средства для ухода</a>
+          </li>
+        </ul>
+      </div>
+      <div class="filters">
+        <section class="filter-checkbox">
+          <h2>Производители:</h2>
+          <label>
+            <input type="checkbox" checked>Baxter of California
+          </label>
+          <label>
+            <input type="checkbox">Mr Natty
+          </label>
+          <label>
+            <input type="checkbox" checked>Suavecito
+          </label>
+          <label>
+            <input type="checkbox">Malin+Goetz
+          </label>
+          <label>
+            <input type="checkbox">Murray's
+          </label>
+          <label>
+            <input type="checkbox" checked>American crew
+          </label>
+        </section>
+        <section class="filter-radio">
+          <h2>Группы товаров:</h2>
+          <label>
+          <input type="radio" name="product-group" value="razor">Бритвенные принадлежности
+          </label>
+          <label>
+            <input type="radio" name="product-group" value="care">Средства для ухода
+          </label>
+          <label>
+            <input type="radio" name="product-group" value="accessories">Аксессуары
+          </label>
+        </section>
+        <a class="buttom" href="#">Показать</a>
+      </div>
+      <div class="items-field">
+        <div class="items">
+          <article class="box">
+            <img src="img/item1.png">
+            <p>
+              Набор для путешествий <br>
+              "Baxter of California"
+            </p>
+            <div class="cost-block">
+              <div class="cost">2990 Руб.</div>  <!--2900 руб. это один блок или нужно два, где отдельно стоимость и вид валюты? Надо оборачивать в <p>?-->
+              <a class="buttom" href="#">Купить</a>
+            </div>
+          </article>
+          <article class="box">
+            <img src="img/item2.png">
+            <p>
+              Увлажняющий кондиционер <br>
+              "Baxter of California"
+            </p>
+            <div class="cost-block">
+              <div class="cost">750 Руб.</div>
+              <a class="buttom" href="#">Купить</a>
+            </div>
+          </article>
+          <article class="box">
+            <img src="img/item3.png">
+            <p>
+              Гель для волос <br>
+              "Suavecito"
+            </p>
+            <div class="cost-block">
+              <div class="cost">290 Руб.</div>
+              <a class="buttom" href="#">Купить</a>
+            </div>
+          </article>
+          <article class="box">
+            <img src="img/item4.png">
+            <p>
+              Глина для укладки волос <br>
+              "American crew"
+            </p>
+            <div class="cost-block">
+              <div class="cost">500 Руб.</div>
+              <a class="buttom" href="#">Купить</a>
+            </div>
+          </article>
+          <article class="box">
+            <img src="img/item5.png">
+            <p>
+              Гель для волос <br>
+              "American crew"
+            </p>
+            <div class="cost-block">
+              <div class="cost">300 Руб.</div>
+              <a class="buttom" href="#">Купить</a>
+            </div>
+          </article>
+          <article class="box">
+            <img src="img/item6.png">
+            <p>
+              Набор для бритья <br>
+              "Baxter of California"
+            </p>
+            <div class="cost-block">
+              <div class="cost">3900 Руб.</div>
+              <a class="buttom" href="#">Купить</a>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="page-number">
+        <div class="page">
+        <a class="btn-number" href="#">1</a>
+        </div>
+        <div class="page">
+        <a class="btn-number" href="#">2</a>
+        </div>
+        <div class="page">
+        <a class="btn-number" href="#">3</a>
+        </div>
+        <div class="page">
+        <a class="btn-number" href="#">4</a>
+        </div>
+      </div>
+    </main>
+    <footer class="main-footer">
+      <div class="container">
+        <section class="footer-contacts">
+          <ul>
+            <li>
+                Барбершоп "Бородинский" <br>
+                Адрес:Г.Санкт-Петербург,ул.Б.Конюшенная,д.19/8
+            </li>
+            <li>
+                Как нас найти? <br>
+                Телефон: +7(495)666-02-66
+            </li>
+          </ul>
+        </section>
+        <section class="footer-social">
+          <p>Давайте дружить!</p>
+          <a class="btn-social btn-social-vk" href="#">Вконтакте</a>
+          <a class="btn-social btn-social-fb" href="#">Фейсбук</a>
+          <a class="btn-social btn-social-inst" href="#">Инстаграм</a>
+        </section>
+        <section class="footer-copyright">
+          <p>Разработано:</p>
+            <a class="buttom" href="https://htmlacademy.ru">Htmlacademy.ru</a>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
