@@ -75,7 +75,7 @@
             <input type="radio" name="product-group" value="accessories">Аксессуары
           </label>
         </section>
-        <a class="buttom" href="#">Показать</a>
+        <a class="button" href="#">Показать</a>
       </div>
       <div class="items-field">
         <div class="items">
@@ -87,7 +87,7 @@
             </p>
             <div class="cost-block">
               <div class="cost">2990 Руб.</div>  <!--2900 руб. это один блок или нужно два, где отдельно стоимость и вид валюты? Надо оборачивать в <p>?-->
-              <a class="buttom" href="#">Купить</a>
+              <a class="button" href="#">Купить</a>
             </div>
           </article>
           <article class="box">
@@ -98,7 +98,7 @@
             </p>
             <div class="cost-block">
               <div class="cost">750 Руб.</div>
-              <a class="buttom" href="#">Купить</a>
+              <a class="button" href="#">Купить</a>
             </div>
           </article>
           <article class="box">
@@ -109,7 +109,7 @@
             </p>
             <div class="cost-block">
               <div class="cost">290 Руб.</div>
-              <a class="buttom" href="#">Купить</a>
+              <a class="button" href="#">Купить</a>
             </div>
           </article>
           <article class="box">
@@ -120,7 +120,7 @@
             </p>
             <div class="cost-block">
               <div class="cost">500 Руб.</div>
-              <a class="buttom" href="#">Купить</a>
+              <a class="button" href="#">Купить</a>
             </div>
           </article>
           <article class="box">
@@ -131,7 +131,7 @@
             </p>
             <div class="cost-block">
               <div class="cost">300 Руб.</div>
-              <a class="buttom" href="#">Купить</a>
+              <a class="button" href="#">Купить</a>
             </div>
           </article>
           <article class="box">
@@ -142,7 +142,7 @@
             </p>
             <div class="cost-block">
               <div class="cost">3900 Руб.</div>
-              <a class="buttom" href="#">Купить</a>
+              <a class="button" href="#">Купить</a>
             </div>
           </article>
         </div>
@@ -184,7 +184,7 @@
         </section>
         <section class="footer-copyright">
           <p>Разработано:</p>
-            <a class="buttom" href="https://htmlacademy.ru">Htmlacademy.ru</a>
+            <a class="button" href="https://htmlacademy.ru">Htmlacademy.ru</a>
         </section>
       </div>
     </footer>
