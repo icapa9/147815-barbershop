@@ -15,7 +15,7 @@
             <li><a href="#">Информация</a></li>
             <li><a href="#">Новости</a></li>
             <li><a href="#">Прайс-лист</a></li>
-            <li><a href="#">Магазин</a></li>
+            <li><a class="active" href="#">Магазин</a></li>
             <li><a href="#">Контакты</a></li>
           </ul>
         </nav>
@@ -119,18 +119,12 @@
           </article>
         </div>
         <div class="page-number">
-          <div class="page">
-            <a class="btn-number active" href="#">1</a>
-          </div>
-          <div class="page">
-            <a class="btn-number active" href="#">2</a>
-          </div>
-          <div class="page">
-            <a class="btn-number active" href="#">3</a>
-          </div>
-          <div class="page">
-            <a class="btn-number active" href="#">4</a>
-          </div>
+          <ul>
+            <li><a class="btn-number" href="#">1</a></li>
+            <li><a class="btn-number active" href="#">2</a></li>
+            <li><a class="btn-number" href="#">3</a></li>
+            <li><a class="btn-number" href="#">4</a></li>
+          </ul>
         </div>
       </section>
     </main>
