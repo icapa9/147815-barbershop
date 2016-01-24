@@ -52,66 +52,66 @@
       <section class="index-field">
         <div class="items">
           <article class="box">
-            <img src="#" width="100" height="150" alt="изображение товара" >
-            <span>
+            <a href="#"><img src="#" width="100" height="150" alt="изображение товара"></a>
+            <a href="#"><span>
               Набор для путешествий <br>
               "Baxter of California"
-            </span>
+            </span></a>
             <div class="cost-block">
               <span>2990 Руб.</span>
               <a class="button" href="#">Купить</a>
             </div>
           </article>
           <article class="box">
-            <img src="#" width="100" height="150" alt="изображение товара">
-            <span>
+            <a href="#"><img src="#" width="100" height="150" alt="изображение товара"></a>
+            <a href="#"><span>
               Увлажняющий кондиционер <br>
               "Baxter of California"
-            </span>
+            </span></a>
             <div class="cost-block">
               <span>750 Руб.</span>
               <a class="button" href="#">Купить</a>
             </div>
           </article>
           <article class="box">
-            <img src="#" width="100" height="150" alt="изображение товара">
-            <span>
+            <a href="#"><img src="#" width="100" height="150" alt="изображение товара"></a>
+            <a href="#"><span>
               Гель для волос <br>
               "Suavecito"
-            </span>
+            </span></a>
             <div class="cost-block">
               <span>290 Руб.</span>
               <a class="button" href="#">Купить</a>
             </div>
           </article>
           <article class="box">
-            <img src="#" width="100" height="150" alt="изображение товара">
-            <span>
+            <a href="#"><img src="#" width="100" height="150" alt="изображение товара"></a>
+            <a href="#"><span>
               Глина для укладки волос <br>
               "American crew"
-            </span>
+            </span></a>
             <div class="cost-block">
               <span>500 Руб.</span>
               <a class="button" href="#">Купить</a>
             </div>
           </article>
           <article class="box">
-            <img src="#" width="100" height="150" alt="изображение товара">
-            <span>
+            <a href="#"><img src="#" width="100" height="150" alt="изображение товара"></a>
+            <a href="#"><span>
               Гель для волос <br>
               "American crew"
-            </span>
+            </span></a>
             <div class="cost-block">
               <span>300 Руб.</span>
               <a class="button" href="#">Купить</a>
             </div>
           </article>
           <article class="box">
-            <img src="#" width="100" height="150" alt="изображение товара">
-            <span>
+            <a href="#"><img src="#" width="100" height="150" alt="изображение товара"></a>
+            <a href="#"><span>
               Набор для бритья <br>
               "Baxter of California"
-            </span>
+            </span></a>
             <div class="cost-block">
               <span>3900 Руб.</span>
               <a class="button" href="#">Купить</a>
