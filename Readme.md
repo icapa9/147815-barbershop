@@ -1,7 +1,7 @@
 # Учебный проект «Барбершоп»
 
 * Студент: [Игорь Кейпа](https://htmlacademy.ru/profile/id147815).
-
+* Наставник: [Никита :smiling_imp: :thumbsup: Рогатнев](https://htmlacademy.ru/profile/id86119).
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
