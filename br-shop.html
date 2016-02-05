@@ -3,24 +3,25 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Барбершоп</title>
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <header class="main-header">
+    <header class="header-shop">
       <div class="container">
         <div class="nav-logo">
-          <a href="#"><img src="img/nav-logo.png" width="111" height="24" alt="Barbershop"></a>
-        </div>
-        <nav class="main-navigation">
+          <a href="index.html"><img src="img/nav-logo.png" width="111" height="24" alt="Barbershop"></a>
+        </div><!--
+        --><nav class="main-navigation">
           <ul>
             <li><a href="#">Информация</a></li>
             <li><a href="#">Новости</a></li>
-            <li><a href="#">Прайс-лист</a></li>
-            <li><a class="active" href="#">Магазин</a></li>
+            <li><a href="br-shop-price.html">Прайс-лист</a></li>
+            <li><a class="active" href="br-shop.html">Магазин</a></li>
             <li><a href="#">Контакты</a></li>
           </ul>
-        </nav>
-        <div class="user-block">
+        </nav><!--
+        --><div class="user-block">
           <a class="login" href="#">Вход</a>
         </div>
       </div>
@@ -29,8 +30,8 @@
       <section class="breadcrumbs">
         <h1>Средства для ухода</h1>
         <ul>
-          <li><a href="#">Главная</a></li>
-          <li><a href="#">Магазин</a></li>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="br-shop.html">Магазин</a></li>
           <li>Средства для ухода</li>
         </ul>
       </section>
@@ -49,12 +50,14 @@
           <label><input type="radio" name="product-group" value="accessories">Аксессуары</label><br>
           <input type="submit" value="Показать">
         </form>
-      </section>
-      <section class="index-field">
+      </section><!--
+      --><section class="index-field">
         <div class="items">
           <article class="box">
-            <a href="#"><img src="img/item-1.jpg" width="220" height="165" alt="изображение товара"></a>
-            <a href="#"><span>
+            <div class="box-photo">
+              <a href="br-shop-item.html"><img src="img/item-1.jpg" width="220" height="165" alt="изображение товара"></a>
+            </div>
+            <a href="br-shop-item.html"><span>
               Набор для путешествий <br>
               "Baxter of California"
             </span></a>
@@ -62,9 +65,11 @@
               <span>2990 Руб.</span>
               <a class="button" href="#">Купить</a>
             </div>
-          </article>
-          <article class="box">
+          </article><!--
+          --><article class="box">
+          <div class="box-photo">
             <a href="#"><img src="img/item-2.jpg" width="220" height="165" alt="изображение товара"></a>
+          </div>
             <a href="#"><span>
               Увлажняющий кондиционер <br>
               "Baxter of California"
@@ -73,9 +78,11 @@
               <span>750 Руб.</span>
               <a class="button" href="#">Купить</a>
             </div>
-          </article>
-          <article class="box">
+          </article><!--
+          --><article class="box">
+          <div class="box-photo">
             <a href="#"><img src="img/item-3.jpg" width="220" height="165" alt="изображение товара"></a>
+          </div>
             <a href="#"><span>
               Гель для волос <br>
               "Suavecito"
@@ -84,9 +91,11 @@
               <span>290 Руб.</span>
               <a class="button" href="#">Купить</a>
             </div>
-          </article>
-          <article class="box">
+          </article><!--
+          --><article class="box">
+          <div class="box-photo">
             <a href="#"><img src="img/item-4.jpg" width="220" height="165" alt="изображение товара"></a>
+          </div>
             <a href="#"><span>
               Глина для укладки волос <br>
               "American crew"
@@ -95,9 +104,11 @@
               <span>500 Руб.</span>
               <a class="button" href="#">Купить</a>
             </div>
-          </article>
-          <article class="box">
+          </article><!--
+          --><article class="box">
+          <div class="box-photo">
             <a href="#"><img src="img/item-5.jpg" width="220" height="165" alt="изображение товара"></a>
+          </div>
             <a href="#"><span>
               Гель для волос <br>
               "American crew"
@@ -106,9 +117,11 @@
               <span>300 Руб.</span>
               <a class="button" href="#">Купить</a>
             </div>
-          </article>
-          <article class="box">
+          </article><!--
+          --><article class="box">
+          <div class="box-photo">
             <a href="#"><img src="img/item-6.jpg" width="220" height="165" alt="изображение товара"></a>
+          </div>  
             <a href="#"><span>
               Набор для бритья <br>
               "Baxter of California"
@@ -138,14 +151,14 @@
             Как нас найти? <br>
             Телефон: +7(495)666-02-66
           </p>
-        </div>
-        <div class="footer-social">
+        </div><!--
+        --><div class="footer-social">
           <span>Давайте дружить!</span>
           <a class="btn" href="#"><i class="fa fa-twitter"></i></a>
           <a class="btn" href="#"><i class="fa fa-facebook"></i></a>
           <a class="btn" href="#"><i class="fa fa-youtube"></i></a>
-        </div>
-        <div class="footer-copyright">
+        </div><!--
+        --><div class="footer-copyright">
           <span>Разработано:</span>
             <a class="button" href="https://htmlacademy.ru">Htmlacademy.ru</a>
         </div>

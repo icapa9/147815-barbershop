@@ -13,3 +13,305 @@ h2 {
   font-size: 24px;
   line-height: 120%;
 }
+.main-header, .header-shop, .header-price, .header-item, .main-footer {
+  width: 1200px;
+  margin: 0 auto;
+}
+.main-header, .header-shop, .header-price, .header-item {
+  margin-top: -8px;
+}
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.nav-logo {
+  display: inline-block;
+  vertical-align: top;
+}
+.main-navigation {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  width: 780px;
+  min-height: 70px;
+}
+.user-block {
+  display: inline-block;
+  vertical-align: top;
+  width: 140px;
+  min-height: 70px;
+}
+.index-logo {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 57px;
+  margin-bottom: 80px;
+  width: 368px;
+  height: 204px;
+}
+.index-logo img{
+  width: 368px;
+  height: 204px;
+}
+.features {
+  margin-bottom: 80px;
+}
+.features-item {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  width: 300px;
+}
+.features-item:last-child {
+  margin-right: 0;
+}
+.index-content {
+  margin-bottom: 34px;
+  padding-top: 56px;
+  padding-bottom: 54px;
+  width: 940px;
+}
+.index-content ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.index-gallery {
+  width: 300px;
+}
+figure {
+  margin: 0;
+  width: 286px;
+  height: 164px;
+  background: url("http://www.youmult.net/_sf/22/2256.jpg") no-repeat;
+  background-size: 100%;
+}
+figure img {
+  width: 286px;
+  height: 164px;
+}
+.index-content-left, .index-content-right {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 60px;
+}
+.index-content-left {
+  width: 380px;
+}
+.index-content-right {
+  width: 300px;
+}
+
+
+/*===========================br-shop===========*/
+
+
+.header-shop .nav-logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 140px;
+  margin-right: 20px;
+}
+.header-shop .main-navigation {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  width: 600px;
+  min-height: 70px;
+}
+.header-shop .user-block {
+  display: inline-block;
+  vertical-align: top;
+  width: 160px;
+  min-height: 70px;
+}
+header ul,
+.breadcrumbs ul,
+.page-number ul {
+  margin: 0px;
+  padding: 0px;
+}
+header ul li,
+.breadcrumbs ul li,
+.page-number ul li {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 40px;
+}
+.breadcrumbs {
+  width: 940px;
+  padding-bottom: 58px;
+  padding-top: 60px;
+}
+.filters {
+  display: inline-block;
+  vertical-align: top;
+  width: 180px;
+}
+.index-field {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 60px;
+}
+.items {
+  display: inline-block;
+  vertical-align: top;
+  width: 700px;
+}
+.box {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  text-align: left;
+  width: 220px;
+}
+.box-photo {
+  width: 220px;
+  height: 165px;
+  background: url("https://pbs.twimg.com/profile_images/651258371710910464/n2rVRo1s.png") no-repeat;
+  background-size: 70%;
+}
+.box img {
+  width: 220px;
+  height: 165px;
+}
+.box:nth-child(-3n+3) {
+  margin-bottom: 20px;
+}
+.box:nth-child(3n+3) {
+  margin-right: 0px;
+}
+.page-number li {
+  margin-top: 45px;
+  margin-bottom: 49px;
+  margin-right: 7px;
+  width: 43px;
+}
+.footer-contacts {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 60px;
+  width: 320px;
+}
+.footer-social {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin-right: 140px;
+  width: 260px;
+}
+.footer-copyright {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: 160px;
+}
+
+
+/*====================br-shop-item=================================*/
+
+
+.header-item .nav-logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 140px;
+  margin-right: 20px;
+}
+.header-item .main-navigation {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  width: 600px;
+  min-height: 70px;
+}
+.header-item .user-block {
+  display: inline-block;
+  vertical-align: top;
+  width: 160px;
+  min-height: 70px;
+}
+.item-gallery, .discription, .availability-article, .contents {
+  display: inline-block;
+  vertical-align: top;
+}
+.item-gallery {
+  margin-bottom: 49px;
+  width: 480px;
+}
+.slider {
+  width: 480px;
+  height: 524px;
+  background: url("http://www.metronews.ru/_internal/gxml!0/r0dc21o2f3vste5s7ezej9x3a10rp3w$7xcscishyyy80ky6x09428p7domw4sc/beavisandbu.jpeg") no-repeat;
+  background-size: 100%;
+}
+.slider img {
+  width: 480px;
+  height: 524px;
+}
+.small-photos {
+  width: 480px;
+  height: 175px;
+}
+.small-photos img {
+  width: 160px;
+  height: 175px;
+}
+.discription{
+  margin-left: 60px;
+  width: 400px;
+}
+.availability-article {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.cost-block {
+  margin-top: 40px;
+}
+.contents {
+  margin-top: 68px;
+}
+.contents ul {
+  margin: 0;
+}
+
+
+/*=======br-shop-price=============================*/
+
+
+.header-price .nav-logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 140px;
+  margin-right: 20px;
+}
+.header-price .main-navigation {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  width: 600px;
+  min-height: 70px;
+}
+.header-price .user-block {
+  display: inline-block;
+  vertical-align: top;
+  width: 160px;
+  min-height: 70px;
+}
+.best-means, .price, .left-side, .right-side {
+  display: inline-block;
+  vertical-align: top;
+}
+.best-means, .left-side, .right-side {
+  width: 400px;
+}
+.about-us {
+  width: 940px;
+}
+.price, .right-side {
+  margin-left: 60px;
+  width: 480px;
+}
+.right-side {
+  margin-bottom: 80px;
+}
