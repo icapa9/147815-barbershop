@@ -17,9 +17,6 @@ h2 {
   width: 1200px;
   margin: 0 auto;
 }
-.main-header, .header-shop, .header-price, .header-item {
-  margin-top: -8px;
-}
 .container {
   width: 940px;
   margin: 0 auto;
@@ -49,6 +46,7 @@ h2 {
   margin-bottom: 80px;
   width: 368px;
   height: 204px;
+  line-height: 0;
 }
 .index-logo img{
   width: 368px;
@@ -244,6 +242,7 @@ header ul li,
   height: 524px;
   background: url("http://www.metronews.ru/_internal/gxml!0/r0dc21o2f3vste5s7ezej9x3a10rp3w$7xcscishyyy80ky6x09428p7domw4sc/beavisandbu.jpeg") no-repeat;
   background-size: 100%;
+  line-height: 0;
 }
 .slider img {
   width: 480px;
